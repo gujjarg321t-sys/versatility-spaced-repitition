@@ -1,0 +1,61 @@
+import { HighlighterConfig, HighlighterType } from '../types';
+
+export const HIGHLIGHTERS: Record<HighlighterType, HighlighterConfig> = {
+  ratta: {
+    type: 'ratta',
+    label: 'Ratta / Memorize',
+    urduName: 'رتہ / فارمولا اور پکے حقائق',
+    colorHex: '#f43f5e',
+    bgClass: 'bg-rose-950/60',
+    textClass: 'text-rose-200',
+    borderClass: 'border-rose-500/70',
+    badgeClass: 'bg-rose-600 text-white',
+    icon: '🧠',
+  },
+  mistake: {
+    type: 'mistake',
+    label: 'Mistakes / Traps',
+    urduName: 'غلطیاں / ماضی کے ٹیسٹ کی چوک',
+    colorHex: '#ef4444',
+    bgClass: 'bg-red-950/70',
+    textClass: 'text-red-200',
+    borderClass: 'border-red-500/80',
+    badgeClass: 'bg-red-600 text-white',
+    icon: '❌',
+  },
+  weak: {
+    type: 'weak',
+    label: 'Weak Points',
+    urduName: 'کمزور نکات / دوبارہ سمجھیں',
+    colorHex: '#f97316',
+    bgClass: 'bg-orange-950/60',
+    textClass: 'text-orange-200',
+    borderClass: 'border-orange-500/70',
+    badgeClass: 'bg-orange-600 text-white',
+    icon: '⚠️',
+  },
+  important: {
+    type: 'important',
+    label: 'Most Imp & Repeating',
+    urduName: 'سب سے اہم اور بار بار آنے والے',
+    colorHex: '#eab308',
+    bgClass: 'bg-yellow-950/70',
+    textClass: 'text-yellow-100',
+    borderClass: 'border-[#D4AF37]',
+    badgeClass: 'bg-[#D4AF37] text-black font-bold',
+    icon: '⭐',
+  },
+  doubt: {
+    type: 'doubt',
+    label: 'Doubts / Questions',
+    urduName: 'شکوک و شبہات / سوالات',
+    colorHex: '#06b6d4',
+    bgClass: 'bg-cyan-950/60',
+    textClass: 'text-cyan-200',
+    borderClass: 'border-cyan-500/70',
+    badgeClass: 'bg-cyan-600 text-white',
+    icon: '❓',
+  },
+};
+
+export const HIGHLIGHTER_LIST = Object.values(HIGHLIGHTERS);

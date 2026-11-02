@@ -1,0 +1,8 @@
+{
+  "name": "Remix Versatility - Spaced Repetition \u0026 Revision Vault",
+  "description": "Executive study planner with spaced repetition reminders (1d, 3d, 7d, 15d, 1m, 2m), 5 subject progress tracking, backlog vault, and luxury dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
